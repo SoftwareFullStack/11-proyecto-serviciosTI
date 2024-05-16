@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="SASS/custom.css" />
+    <link
+      rel="stylesheet"
+      href="FONTS/bootstrap-icons-1.11.3/font/bootstrap-icons.css"/>
+      <link rel="shortcut icon" href="img/LogoIcono.png" type="image/x-icon">
+    <title>TI-Corporation</title>
+  </head>
+
+  <body>
+    <!-- MENU REDES SOCIALES -->
+    <div class="bg-primary py-1 d-none d-sm-flex justify-content-center">
+      <a href="" class="text-white mx-5"
+        ><span class="bi bi-facebook"></span
+      ></a>
+      <a href="" class="text-white mx-5"
+        ><span class="bi bi-instagram"></span
+      ></a>
+      <a href="" class="text-white mx-5"><span class="bi bi-youtube"></span></a>
+      <a href="" class="text-white mx-5"
+        ><span class="bi bi-twitter-x"></span
+      ></a>
+      <a href="" class="text-white mx-5"><span class="bi bi-tiktok"></span></a>
+    </div>
+
+    <!-- MENU PRINCIPAL -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container">
+        <!-- ICONO DEL MENU -->
+        <a class="navbar-brand" href="#">
+          <img src="img/LogoIcono.svg" alt="" width="100" height="70" class="me-2" color="white"/>
+          TI-Corporation
+        </a>
+
+        <!-- BOTON RESPONSIVE -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- CUERPO DEL MENU / ENLACES -->
+        <div class="collapse navbar-collapse pb-3 pb-lg-0" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-lg-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center align-items-center">
+            <button type="button" class="btn btn-primary bnt-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#modalContacto">Contáctanos</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- CARRUSEL DE IMAGENES -->
+    <div class="container-fluid p-0">
+
+        <!-- INDICADORES -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade header" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <!-- CUERPO CARRUSEL -->
+            <div class="carousel-inner h-100">
+              <div class="carousel-item active h-100 overlay">
+                <img src="img/carrusel-Img1.jpg" class="d-block w-100 h-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex justify-content-center align-items-center flex-column h-100">
+                    <h5 class="display-1">Bienvenido a nuestra web</h5>
+                    <p class="fs-2 fw-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  </div>
+              </div>
+              <div class="carousel-item h-100">
+                <img src="img/carrusel-Img2.jpg" class="d-block w-100 h-100" alt="...">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="img/carrusel-Img3.png" class="d-block w-100 h-100" alt="...">
+              </div>
+              <div class="carousel-item h-100">
+                <img src="img/carrusel-Img4.jpg" class="d-block w-100 h-100" alt="...">
+              </div>
+              
+            </div>
+
+            <!-- BOTONES CARRUSEL -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="container py-5">
+        <!-- INFORMACION DE  LA EMPRESA -->
+        <div class="row py-5 border-bottom">
+            <div class="col-md-7 align-self-center">
+                <h2 class="display-2">Nosotros <span class="text-muted fs-1 ms-1">Trabajamos pora tí</span></h2>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis repellendus ratione saepe quam libero, soluta adipisci sunt non error explicabo quae? Molestiae sit iusto tempore quaerat alias impedit voluptatibus.</p>
+            </div>
+
+            <div class="col-md-5">
+                <img src="img/contenidoPrincipal-Img1.jpg" alt="" class="w-100 h-100 rounded">
+            </div>
+        </div>
+        
+
+        <div class="row py-5">
+            <div class="col-md-7 align-self-center order-md-2">
+                <h2 class="display-2">Servicios <span class="text-muted fs-1 ms-1">En diferentes tecnologías</span></h2>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis repellendus ratione saepe quam libero, soluta adipisci sunt non error explicabo quae? Molestiae sit iusto tempore quaerat alias impedit voluptatibus.</p>
+            </div>
+
+            <div class="col-md-5 order-md-1">
+                <img src="img/contenidoPrincipal-Img2.jpg" alt="" class="w-100 h-100 rounded">
+            </div>
+        </div>
+
+
+        <!-- PRODUCTOS -->
+        <div class="row py-5">
+            <div class="col-12">
+                <div class="py-4 border-bottom">
+                    <h1 class="text-center display-2">Productos</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/card-Img1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Desarrollo web</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-primary">Consulta</a>
+                      <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/card-Img2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Desarrollo desktop APP</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-primary">Consulta</a>
+                      <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/card-Img3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Desarrollo mobile</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-primary">Consulta</a>
+                      <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/card-Img4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Desarrollo en la nuve</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-primary">Consulta</a>
+                      <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/card-Img5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Analisis de datos</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-primary">Consulta</a>
+                      <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/card-Img6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Diseño gráfico</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-primary">Consulta</a>
+                      <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/card-Img7.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Edición de video</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-primary">Consulta</a>
+                      <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="img/card-Img8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Administracion social media</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      <a href="#" class="btn btn-primary">Consulta</a>
+                      <a href="#" class="btn btn-secondary">Detalles</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- TESTIMONIOS -->
+    <div class="container-fluid px-0 py-3 bg-dark text-white">
+        <div class="row g-0 py-5">
+            <div class="col-12">
+                <div class="text-center">
+                    <h2 class="display-3">palabras de <b>nuestros clientes...</b></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos distinctio temporibus ea quibusdam earum, molestias enim odit quasi id libero asperiores odio ducimus dolorum.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-0 pb-5">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide">
+
+                    <!-- INDICADORES -->
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+
+                    <!-- CUERPO DEL CARRUSEL -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="imgTestimonio m-auto">
+                            <img src="img/testimonio-Img1.jpg" alt="" class="w-100 h-100 rounded-circle">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">Nombre persona 1</h3>
+                            <h4 class="fw-normal text-primary">Profesión de la persoma</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, unde reiciendis cupiditate officia dignissimos ad vero et mollitia quis porro ab consequatur illo cumque quam temporibus cum enim natus tempore!</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="imgTestimonio m-auto">
+                            <img src="img/testimonio-Img2.jpg" alt="" class="w-100 h-100 rounded-circle">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">Nombre persona 2</h3>
+                            <h4 class="fw-normal text-primary">Profesión de la persoma</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, unde reiciendis cupiditate officia dignissimos ad vero et mollitia quis porro ab consequatur illo cumque quam temporibus cum enim natus tempore!</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="imgTestimonio m-auto">
+                            <img src="img/testimonio-Img3.jpg" alt="" class="w-100 h-100 rounded-circle">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">Nombre persona 3</h3>
+                            <h4 class="fw-normal text-primary">Profesión de la persoma</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, unde reiciendis cupiditate officia dignissimos ad vero et mollitia quis porro ab consequatur illo cumque quam temporibus cum enim natus tempore!</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="imgTestimonio m-auto">
+                            <img src="img/testimonio-Img4.jpg" alt="" class="w-100 h-100 rounded-circle">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">Nombre persona 4</h3>
+                            <h4 class="fw-normal text-primary">Profesión de la persoma</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, unde reiciendis cupiditate officia dignissimos ad vero et mollitia quis porro ab consequatur illo cumque quam temporibus cum enim natus tempore!</p>
+                          </div>
+                      </div>
+                    </div>
+
+                    <!-- BOTONES -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="d-flex justify-content-center align-items-center bg-black text-white" style="height: 50px;">
+        <p class="m-0">© 2024. Alfonso Ospino Silvera</p>
+    </footer>
+
+
+    <!-- VENTANA MODAL (ventana emergente) -->
+    <div class="modal fade" id="modalContacto" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Déjanos un mensaje...</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body p-4">
+              <form class="row">
+                <div class="col-12 col-sm-6 mb-3">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre">
+                </div>
+                
+                <div class="col-12 col-sm-6 mb-3">
+                    <label for="email">E-mail</label>
+                    <input type="text" class="form-control" id="email">
+                </div>
+
+                <div class="col-12 mb-3">
+                    <label for="mensajeCliente">Mensaje</label>
+                    <textarea class="form-control" id="mensajeCliente"></textarea>
+                </div>
+
+              </form>
+            </div>
+
+            <div class="modal-footer p-0">
+              <button type="button" class="btn btn-primary w-100 rounded-0 m-0">Enviar emnsaje</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

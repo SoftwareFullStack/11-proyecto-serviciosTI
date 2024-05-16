@@ -1,0 +1,44 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+/* ESTILOS PERSONALIZADOS */
+.carousel.header{
+    height: calc(100vh - 127px);
+
+    img{
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+
+/* ESTILO OSCURO EN LA IMAGEN  # DEL CARRUSEL*/
+.carousel-item.overlay::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($color: #000, $alpha: 0.8);
+}
+
+
+/* CAMBIO DE TAMAÑO DE LAS CARD */
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* PERSONALIZACIÓN DE LAS IMAGENES DE TESTIMONIO */
+.imgTestimonio{
+    width: 120px;
+    height: 120px;
+
+    img{
+        object-fit: cover;
+        object-position: center;
+    }
+}
